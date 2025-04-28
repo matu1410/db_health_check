@@ -8,15 +8,15 @@ from email.mime.application import MIMEApplication
 from jinja2 import Template
 
 # === CONFIG ===
-DB_USER = "DBA_MON"
-DB_PASS = "Duda@2024"
+DB_USER = "xxxxx"
+DB_PASS = "xxxxxx"
 LISTA_TNS = "lista_prd.txt" 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 QUERIES_PATH = os.path.join(BASE_DIR, "queries")
 
-GMAIL_USER = "mhenrique88@gmail.com"
-GMAIL_APP_PASSWORD = "yvav duzz egdi cbao"
-EMAIL_DESTINO = "mhenrique88@gmail.com"
+GMAIL_USER = "xxxxx"
+GMAIL_APP_PASSWORD = "xxxxx"
+EMAIL_DESTINO = "xxxxxx"
 
 def carregar_query(nome_arquivo):
     caminho = os.path.join(QUERIES_PATH, nome_arquivo)
