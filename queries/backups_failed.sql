@@ -1,0 +1,4 @@
+SELECT status, TO_CHAR(start_time, 'DD/MM/YYYY HH24:MI'), input_type
+FROM V$RMAN_BACKUP_JOB_DETAILS
+WHERE start_time > SYSDATE - 1
+AND status NOT IN ('COMPLETED', 'SUCCESS')

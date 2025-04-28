@@ -1,0 +1,1 @@
+SELECT instance_name, status, database_status FROM v$instance

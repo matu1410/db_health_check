@@ -1,0 +1,1 @@
+SELECT value FROM V$DATAGUARD_STATS WHERE name = 'apply lag'
